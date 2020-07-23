@@ -1,15 +1,13 @@
-import { ApolloProvider } from '@apollo/client';
-import { useApollo } from '../utils/apollo/useApollo';
+import { withApollo } from '../utils/apollo/withApollo';
+import { NextComponentType, NextPage } from 'next';
 import { FunctionComponent } from 'react';
 
-const App: FunctionComponent<Record<string, any>> = ({ Component, pageProps }) => {
-  const apolloClient = useApollo(pageProps.initialApolloState);
-
-  return (
-    <ApolloProvider client={apolloClient}>
-      <Component {...pageProps} />
-    </ApolloProvider>
-  );
+interface Props {
+  Component: NextComponentType;
+  pageProps: Record<string, unknown>;
+}
+const App: FunctionComponent<Props> = ({ Component, pageProps }) => {
+  return <Component {...pageProps} />;
 };
 
-export default App;
+export default withApollo({ ssr: true })(App as NextPage);
