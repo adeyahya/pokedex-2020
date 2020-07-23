@@ -10,6 +10,10 @@
     "start": "NODE_ENV=production node dist/index.js"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "graphql": "^15.3.0",
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
