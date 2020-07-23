@@ -1,7 +1,7 @@
-import { withApollo } from '../utils/apollo/withApollo';
 import { NextComponentType, NextPage } from 'next';
 import { FunctionComponent } from 'react';
-
+import { withApollo } from '../utils/apollo/withApollo';
+import '../styles/index.css';
 interface Props {
   Component: NextComponentType;
   pageProps: Record<string, unknown>;
