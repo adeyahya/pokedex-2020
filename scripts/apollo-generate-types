@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rm -rf src/queries/types
+rm @types/graphql-global-types.ts
+export $(cat .env) && apollo schema:download --endpoint=${NEXT_PUBLIC_GRAPHQL_URL} graphql-schema.json
+
+npx apollo codegen:generate --localSchemaFile=graphql-schema.json --target=typescript --includes=src/queries/*.ts --tagName=gql --addTypename --globalTypesFile=@types/graphql-global-types.ts types
