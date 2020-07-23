@@ -1,6 +1,6 @@
 module.exports = {
-  target: "serverless",
-  webpack: (config, options) => {
+  target: 'serverless',
+  webpack: (config) => {
     config.plugins = config.plugins || [];
     return config;
   },

@@ -1,5 +1,5 @@
-import { gql } from "@apollo/react-hooks";
-import { pokemonFragment } from "./pokemon.fragment";
+import { gql } from '@apollo/react-hooks';
+import { pokemonFragment } from './pokemon.fragment';
 
 export const getPokemonListQuery = gql`
   query getPokemonList($first: Int!, $offset: Int, $after: String) {
@@ -10,7 +10,6 @@ export const getPokemonListQuery = gql`
       first
       offset
     }
-
-    ${pokemonFragment}
   }
+  ${pokemonFragment}
 `;

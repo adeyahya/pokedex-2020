@@ -1,4 +1,4 @@
-import { gql } from "@apollo/react-hooks";
+import { gql } from '@apollo/react-hooks';
 
 export const pokemonFragment = gql`
   fragment PokemonFragment on Pokemon {
