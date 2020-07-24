@@ -21,15 +21,15 @@ const PokemonDetailPage: FunctionComponent = () => {
     },
   });
 
-  const { data: relatedPokemonData, loading: relatedPokemonLoading } = useQuery<
-    getPokemonList,
-    getPokemonListVariables
-  >(getPokemonListQuery, {
-    variables: {
-      first: PAGINATION_PAGE_SIZE,
-      after: id,
-    },
-  });
+  const { data: relatedPokemonData } = useQuery<getPokemonList, getPokemonListVariables>(
+    getPokemonListQuery,
+    {
+      variables: {
+        first: PAGINATION_PAGE_SIZE,
+        after: id,
+      },
+    }
+  );
 
   const pokemon = data?.pokemon;
   const relatedPokemons = relatedPokemonData?.pokemons?.items || [];
@@ -42,7 +42,7 @@ const PokemonDetailPage: FunctionComponent = () => {
       <h2 className="text-4xl font-bold px-5 mt-10" style={{ marginBottom: '-30px' }}>
         Related Pokemon
       </h2>
-      <PokemonListCard pokemons={relatedPokemons} loading={relatedPokemonLoading} />
+      <PokemonListCard pokemons={relatedPokemons} />
     </div>
   );
 };
