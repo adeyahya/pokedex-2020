@@ -7,9 +7,9 @@ export const SpecsCard: FunctionComponent<Props> = memo(
   ({ specs }) => {
     const keys = Object.keys(specs);
     return (
-      <div className="grid gap-1 grid-cols-2" data-testid="specs">
+      <div className="flex justify-start flex-wrap" data-testid="specs">
         {keys.map((key) => (
-          <div className="flex flex-col" key={key}>
+          <div className="flex flex-initial flex-col mr-2 mt-2" key={key}>
             <span className="text-xs font-bold" data-testid="spec-name">
               {key}
             </span>

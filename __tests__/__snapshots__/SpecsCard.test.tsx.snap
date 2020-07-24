@@ -2,11 +2,11 @@
 
 exports[`Specs Card renders correctly for case 0 1`] = `
 <div
-  class="grid gap-1 grid-cols-2"
+  class="flex justify-start flex-wrap"
   data-testid="specs"
 >
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -24,7 +24,7 @@ exports[`Specs Card renders correctly for case 0 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -46,11 +46,11 @@ exports[`Specs Card renders correctly for case 0 1`] = `
 
 exports[`Specs Card renders correctly for case 1 1`] = `
 <div
-  class="grid gap-1 grid-cols-2"
+  class="flex justify-start flex-wrap"
   data-testid="specs"
 >
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -68,7 +68,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -86,7 +86,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -104,7 +104,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -122,7 +122,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -140,7 +140,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -158,7 +158,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -176,7 +176,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -194,7 +194,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -212,7 +212,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -230,7 +230,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -248,7 +248,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -266,7 +266,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -284,7 +284,7 @@ exports[`Specs Card renders correctly for case 1 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -306,11 +306,11 @@ exports[`Specs Card renders correctly for case 1 1`] = `
 
 exports[`Specs Card renders correctly for case 2 1`] = `
 <div
-  class="grid gap-1 grid-cols-2"
+  class="flex justify-start flex-wrap"
   data-testid="specs"
 >
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -328,7 +328,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -346,7 +346,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -364,7 +364,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -382,7 +382,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -400,7 +400,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -418,7 +418,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -436,7 +436,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -454,7 +454,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -472,7 +472,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -490,7 +490,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -508,7 +508,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -526,7 +526,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -544,7 +544,7 @@ exports[`Specs Card renders correctly for case 2 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -566,11 +566,11 @@ exports[`Specs Card renders correctly for case 2 1`] = `
 
 exports[`Specs Card renders correctly for case 3 1`] = `
 <div
-  class="grid gap-1 grid-cols-2"
+  class="flex justify-start flex-wrap"
   data-testid="specs"
 >
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -588,7 +588,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -606,7 +606,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -624,7 +624,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -642,7 +642,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -660,7 +660,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -678,7 +678,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -696,7 +696,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -714,7 +714,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -732,7 +732,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -750,7 +750,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -768,7 +768,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -786,7 +786,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -804,7 +804,7 @@ exports[`Specs Card renders correctly for case 3 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -826,11 +826,11 @@ exports[`Specs Card renders correctly for case 3 1`] = `
 
 exports[`Specs Card renders correctly for case 4 1`] = `
 <div
-  class="grid gap-1 grid-cols-2"
+  class="flex justify-start flex-wrap"
   data-testid="specs"
 >
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -848,7 +848,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -866,7 +866,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -884,7 +884,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -902,7 +902,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -920,7 +920,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -938,7 +938,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -956,7 +956,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -974,7 +974,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -992,7 +992,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1010,7 +1010,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1028,7 +1028,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1046,7 +1046,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1064,7 +1064,7 @@ exports[`Specs Card renders correctly for case 4 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1086,11 +1086,11 @@ exports[`Specs Card renders correctly for case 4 1`] = `
 
 exports[`Specs Card renders correctly for case 5 1`] = `
 <div
-  class="grid gap-1 grid-cols-2"
+  class="flex justify-start flex-wrap"
   data-testid="specs"
 >
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1108,7 +1108,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1126,7 +1126,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1144,7 +1144,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1162,7 +1162,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1180,7 +1180,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1198,7 +1198,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1216,7 +1216,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1234,7 +1234,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1252,7 +1252,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1270,7 +1270,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1288,7 +1288,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1306,7 +1306,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1324,7 +1324,7 @@ exports[`Specs Card renders correctly for case 5 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1346,11 +1346,11 @@ exports[`Specs Card renders correctly for case 5 1`] = `
 
 exports[`Specs Card renders correctly for case 6 1`] = `
 <div
-  class="grid gap-1 grid-cols-2"
+  class="flex justify-start flex-wrap"
   data-testid="specs"
 >
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1368,7 +1368,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1386,7 +1386,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1404,7 +1404,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1422,7 +1422,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1440,7 +1440,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1458,7 +1458,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1476,7 +1476,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1494,7 +1494,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1512,7 +1512,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1530,7 +1530,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1548,7 +1548,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1566,7 +1566,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
@@ -1584,7 +1584,7 @@ exports[`Specs Card renders correctly for case 6 1`] = `
     </div>
   </div>
   <div
-    class="flex flex-col"
+    class="flex flex-initial flex-col mr-2 mt-2"
   >
     <span
       class="text-xs font-bold"
