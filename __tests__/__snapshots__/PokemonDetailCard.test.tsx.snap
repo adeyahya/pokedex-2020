@@ -26,7 +26,7 @@ exports[`Pokemon Detail Card renders correctly for case 0 1`] = `
       >
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Ivysaur"
+          href="/pokemon?pid=Ivysaur"
         >
           <img
             alt="Ivysaur"
@@ -43,7 +43,7 @@ exports[`Pokemon Detail Card renders correctly for case 0 1`] = `
         </a>
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Venusaur"
+          href="/pokemon?pid=Venusaur"
         >
           <img
             alt="Venusaur"
@@ -491,7 +491,7 @@ exports[`Pokemon Detail Card renders correctly for case 1 1`] = `
       >
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Venusaur"
+          href="/pokemon?pid=Venusaur"
         >
           <img
             alt="Venusaur"
@@ -1369,7 +1369,7 @@ exports[`Pokemon Detail Card renders correctly for case 3 1`] = `
       >
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Charmeleon"
+          href="/pokemon?pid=Charmeleon"
         >
           <img
             alt="Charmeleon"
@@ -1386,7 +1386,7 @@ exports[`Pokemon Detail Card renders correctly for case 3 1`] = `
         </a>
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Charizard"
+          href="/pokemon?pid=Charizard"
         >
           <img
             alt="Charizard"
@@ -1828,7 +1828,7 @@ exports[`Pokemon Detail Card renders correctly for case 4 1`] = `
       >
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Charizard"
+          href="/pokemon?pid=Charizard"
         >
           <img
             alt="Charizard"
@@ -2700,7 +2700,7 @@ exports[`Pokemon Detail Card renders correctly for case 6 1`] = `
       >
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Wartortle"
+          href="/pokemon?pid=Wartortle"
         >
           <img
             alt="Wartortle"
@@ -2717,7 +2717,7 @@ exports[`Pokemon Detail Card renders correctly for case 6 1`] = `
         </a>
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Blastoise"
+          href="/pokemon?pid=Blastoise"
         >
           <img
             alt="Blastoise"
@@ -3141,7 +3141,7 @@ exports[`Pokemon Detail Card renders correctly for case 7 1`] = `
       >
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Blastoise"
+          href="/pokemon?pid=Blastoise"
         >
           <img
             alt="Blastoise"
@@ -4007,7 +4007,7 @@ exports[`Pokemon Detail Card renders correctly for case 9 1`] = `
       >
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Metapod"
+          href="/pokemon?pid=Metapod"
         >
           <img
             alt="Metapod"
@@ -4024,7 +4024,7 @@ exports[`Pokemon Detail Card renders correctly for case 9 1`] = `
         </a>
         <a
           class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
-          href="/pokemon/Butterfree"
+          href="/pokemon?pid=Butterfree"
         >
           <img
             alt="Butterfree"

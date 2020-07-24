@@ -14,7 +14,7 @@ describe('Pokemon Card', () => {
     const imageNode = root.querySelector('[data-testid=image]')?.getAttribute('src');
     expect(root).toMatchSnapshot();
     expect(nameInNode).toContain(name);
-    expect(anchorNode).toEqual(`/pokemon/${name}`);
+    expect(anchorNode).toEqual(`/pokemon?pid=${name}`);
     expect(imageNode).toEqual(image);
   });
 });

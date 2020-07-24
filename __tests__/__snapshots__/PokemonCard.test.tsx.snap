@@ -19,7 +19,7 @@ exports[`Pokemon Card renders correctly for case 0 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Bulbasaur"
+      href="/pokemon?pid=Bulbasaur"
     >
       <h3
         class="text-lg font-bold mb-0"
@@ -175,7 +175,7 @@ exports[`Pokemon Card renders correctly for case 1 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Ivysaur"
+      href="/pokemon?pid=Ivysaur"
     >
       <h3
         class="text-lg font-bold mb-0"
@@ -331,7 +331,7 @@ exports[`Pokemon Card renders correctly for case 2 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Venusaur"
+      href="/pokemon?pid=Venusaur"
     >
       <h3
         class="text-lg font-bold mb-0"
@@ -487,7 +487,7 @@ exports[`Pokemon Card renders correctly for case 3 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Charmander"
+      href="/pokemon?pid=Charmander"
     >
       <h3
         class="text-lg font-bold mb-0"
@@ -637,7 +637,7 @@ exports[`Pokemon Card renders correctly for case 4 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Charmeleon"
+      href="/pokemon?pid=Charmeleon"
     >
       <h3
         class="text-lg font-bold mb-0"
@@ -787,7 +787,7 @@ exports[`Pokemon Card renders correctly for case 5 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Charizard"
+      href="/pokemon?pid=Charizard"
     >
       <h3
         class="text-lg font-bold mb-0"
@@ -943,7 +943,7 @@ exports[`Pokemon Card renders correctly for case 6 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Squirtle"
+      href="/pokemon?pid=Squirtle"
     >
       <h3
         class="text-lg font-bold mb-0"
@@ -1093,7 +1093,7 @@ exports[`Pokemon Card renders correctly for case 7 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Wartortle"
+      href="/pokemon?pid=Wartortle"
     >
       <h3
         class="text-lg font-bold mb-0"
@@ -1243,7 +1243,7 @@ exports[`Pokemon Card renders correctly for case 8 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Blastoise"
+      href="/pokemon?pid=Blastoise"
     >
       <h3
         class="text-lg font-bold mb-0"
@@ -1393,7 +1393,7 @@ exports[`Pokemon Card renders correctly for case 9 1`] = `
     class="p-4"
   >
     <a
-      href="/pokemon/Caterpie"
+      href="/pokemon?pid=Caterpie"
     >
       <h3
         class="text-lg font-bold mb-0"
