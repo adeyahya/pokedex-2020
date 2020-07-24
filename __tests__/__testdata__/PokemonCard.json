@@ -1,0 +1,672 @@
+[
+  {
+    "id": "Bulbasaur",
+    "name": "Bulbasaur",
+    "image": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
+    "number": "001",
+    "weight": {
+      "minimum": "6.04kg",
+      "maximum": "7.76kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "0.61m",
+      "maximum": "0.79m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Seed Pokémon",
+    "types": ["Grass", "Poison"],
+    "resistant": ["Water", "Electric", "Grass", "Fighting", "Fairy"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Tackle",
+          "damage": 12,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Vine Whip",
+          "damage": 7,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Power Whip",
+          "damage": 70,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Seed Bomb",
+          "damage": 40,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Sludge Bomb",
+          "damage": 55,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+    "fleeRate": 0.1,
+    "maxCP": 951,
+    "maxHP": 1071,
+    "evolutions": [
+      {
+        "name": "Ivysaur",
+        "image": "https://img.pokemondb.net/artwork/ivysaur.jpg",
+        "__typename": "Pokemon"
+      },
+      {
+        "name": "Venusaur",
+        "image": "https://img.pokemondb.net/artwork/venusaur.jpg",
+        "__typename": "Pokemon"
+      }
+    ],
+    "evolutionRequirements": {
+      "amount": 25,
+      "name": "Bulbasaur candies",
+      "__typename": "PokemonEvolutionRequirement"
+    },
+    "__typename": "Pokemon"
+  },
+  {
+    "id": "Ivysaur",
+    "name": "Ivysaur",
+    "image": "https://img.pokemondb.net/artwork/ivysaur.jpg",
+    "number": "002",
+    "weight": {
+      "minimum": "11.38kg",
+      "maximum": "14.63kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "0.88m",
+      "maximum": "1.13m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Seed Pokémon",
+    "types": ["Grass", "Poison"],
+    "resistant": ["Water", "Electric", "Grass", "Fighting", "Fairy"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Razor Leaf",
+          "damage": 15,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Vine Whip",
+          "damage": 7,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Power Whip",
+          "damage": 70,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Sludge Bomb",
+          "damage": 55,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Solar Beam",
+          "damage": 120,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+    "fleeRate": 0.07,
+    "maxCP": 1483,
+    "maxHP": 1632,
+    "evolutions": [
+      {
+        "name": "Venusaur",
+        "image": "https://img.pokemondb.net/artwork/venusaur.jpg",
+        "__typename": "Pokemon"
+      }
+    ],
+    "evolutionRequirements": {
+      "amount": 100,
+      "name": "Bulbasaur candies",
+      "__typename": "PokemonEvolutionRequirement"
+    },
+    "__typename": "Pokemon"
+  },
+  {
+    "id": "Venusaur",
+    "name": "Venusaur",
+    "image": "https://img.pokemondb.net/artwork/venusaur.jpg",
+    "number": "003",
+    "weight": {
+      "minimum": "87.5kg",
+      "maximum": "112.5kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "1.75m",
+      "maximum": "2.25m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Seed Pokémon",
+    "types": ["Grass", "Poison"],
+    "resistant": ["Water", "Electric", "Grass", "Fighting", "Fairy"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Razor Leaf",
+          "damage": 15,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Vine Whip",
+          "damage": 7,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Petal Blizzard",
+          "damage": 65,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Sludge Bomb",
+          "damage": 55,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Solar Beam",
+          "damage": 120,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+    "fleeRate": 0.05,
+    "maxCP": 2392,
+    "maxHP": 2580,
+    "evolutions": null,
+    "evolutionRequirements": null,
+    "__typename": "Pokemon"
+  },
+  {
+    "id": "Charmander",
+    "name": "Charmander",
+    "image": "https://img.pokemondb.net/artwork/charmander.jpg",
+    "number": "004",
+    "weight": {
+      "minimum": "7.44kg",
+      "maximum": "9.56kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "0.53m",
+      "maximum": "0.68m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Lizard Pokémon",
+    "types": ["Fire"],
+    "resistant": ["Fire", "Grass", "Ice", "Bug", "Steel", "Fairy"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Ember",
+          "damage": 10,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Scratch",
+          "damage": 6,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Flame Burst",
+          "damage": 30,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Flame Charge",
+          "damage": 25,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Flamethrower",
+          "damage": 55,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Water", "Ground", "Rock"],
+    "fleeRate": 0.1,
+    "maxCP": 841,
+    "maxHP": 955,
+    "evolutions": [
+      {
+        "name": "Charmeleon",
+        "image": "https://img.pokemondb.net/artwork/charmeleon.jpg",
+        "__typename": "Pokemon"
+      },
+      {
+        "name": "Charizard",
+        "image": "https://img.pokemondb.net/artwork/charizard.jpg",
+        "__typename": "Pokemon"
+      }
+    ],
+    "evolutionRequirements": {
+      "amount": 25,
+      "name": "Charmander candies",
+      "__typename": "PokemonEvolutionRequirement"
+    },
+    "__typename": "Pokemon"
+  },
+  {
+    "id": "Charmeleon",
+    "name": "Charmeleon",
+    "image": "https://img.pokemondb.net/artwork/charmeleon.jpg",
+    "number": "005",
+    "weight": {
+      "minimum": "16.63kg",
+      "maximum": "21.38kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "0.96m",
+      "maximum": "1.24m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Flame Pokémon",
+    "types": ["Fire"],
+    "resistant": ["Fire", "Grass", "Ice", "Bug", "Steel", "Fairy"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Ember",
+          "damage": 10,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Scratch",
+          "damage": 6,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Fire Punch",
+          "damage": 40,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Flame Burst",
+          "damage": 30,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Flamethrower",
+          "damage": 55,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Water", "Ground", "Rock"],
+    "fleeRate": 0.07,
+    "maxCP": 1411,
+    "maxHP": 1557,
+    "evolutions": [
+      {
+        "name": "Charizard",
+        "image": "https://img.pokemondb.net/artwork/charizard.jpg",
+        "__typename": "Pokemon"
+      }
+    ],
+    "evolutionRequirements": {
+      "amount": 100,
+      "name": "Charmander candies",
+      "__typename": "PokemonEvolutionRequirement"
+    },
+    "__typename": "Pokemon"
+  },
+  {
+    "id": "Charizard",
+    "name": "Charizard",
+    "image": "https://img.pokemondb.net/artwork/charizard.jpg",
+    "number": "006",
+    "weight": {
+      "minimum": "79.19kg",
+      "maximum": "101.81kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "1.49m",
+      "maximum": "1.91m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Flame Pokémon",
+    "types": ["Fire", "Flying"],
+    "resistant": ["Fire", "Grass", "Fighting", "Bug", "Steel", "Fairy"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Ember",
+          "damage": 10,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Wing Attack",
+          "damage": 9,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Dragon Claw",
+          "damage": 35,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Fire Blast",
+          "damage": 100,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Flamethrower",
+          "damage": 55,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Water", "Electric", "Rock"],
+    "fleeRate": 0.05,
+    "maxCP": 2413,
+    "maxHP": 2602,
+    "evolutions": null,
+    "evolutionRequirements": null,
+    "__typename": "Pokemon"
+  },
+  {
+    "id": "Squirtle",
+    "name": "Squirtle",
+    "image": "https://img.pokemondb.net/artwork/squirtle.jpg",
+    "number": "007",
+    "weight": {
+      "minimum": "7.88kg",
+      "maximum": "10.13kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "0.44m",
+      "maximum": "0.56m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Tiny Turtle Pokémon",
+    "types": ["Water"],
+    "resistant": ["Fire", "Water", "Ice", "Steel"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Bubble",
+          "damage": 25,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Tackle",
+          "damage": 12,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Aqua Jet",
+          "damage": 25,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Aqua Tail",
+          "damage": 45,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Water Pulse",
+          "damage": 35,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Electric", "Grass"],
+    "fleeRate": 0.1,
+    "maxCP": 891,
+    "maxHP": 1008,
+    "evolutions": [
+      {
+        "name": "Wartortle",
+        "image": "https://img.pokemondb.net/artwork/wartortle.jpg",
+        "__typename": "Pokemon"
+      },
+      {
+        "name": "Blastoise",
+        "image": "https://img.pokemondb.net/artwork/blastoise.jpg",
+        "__typename": "Pokemon"
+      }
+    ],
+    "evolutionRequirements": {
+      "amount": 25,
+      "name": "Squirtle candies",
+      "__typename": "PokemonEvolutionRequirement"
+    },
+    "__typename": "Pokemon"
+  },
+  {
+    "id": "Wartortle",
+    "name": "Wartortle",
+    "image": "https://img.pokemondb.net/artwork/wartortle.jpg",
+    "number": "008",
+    "weight": {
+      "minimum": "19.69kg",
+      "maximum": "25.31kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "0.88m",
+      "maximum": "1.13m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Turtle Pokémon",
+    "types": ["Water"],
+    "resistant": ["Fire", "Water", "Ice", "Steel"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Bite",
+          "damage": 6,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Water Gun",
+          "damage": 6,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Aqua Jet",
+          "damage": 25,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Gunk Shot",
+          "damage": 65,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Hydro Pump",
+          "damage": 90,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Ice Beam",
+          "damage": 65,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Electric", "Grass"],
+    "fleeRate": 0.07,
+    "maxCP": 1435,
+    "maxHP": 1582,
+    "evolutions": [
+      {
+        "name": "Blastoise",
+        "image": "https://img.pokemondb.net/artwork/blastoise.jpg",
+        "__typename": "Pokemon"
+      }
+    ],
+    "evolutionRequirements": {
+      "amount": 100,
+      "name": "Squirtle candies",
+      "__typename": "PokemonEvolutionRequirement"
+    },
+    "__typename": "Pokemon"
+  },
+  {
+    "id": "Blastoise",
+    "name": "Blastoise",
+    "image": "https://img.pokemondb.net/artwork/blastoise.jpg",
+    "number": "009",
+    "weight": {
+      "minimum": "74.81kg",
+      "maximum": "96.19kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "1.4m",
+      "maximum": "1.8m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Shellfish Pokémon",
+    "types": ["Water"],
+    "resistant": ["Fire", "Water", "Ice", "Steel"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Bite",
+          "damage": 6,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Water Gun",
+          "damage": 6,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Flash Cannon",
+          "damage": 60,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Gunk Shot",
+          "damage": 65,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Hydro Pump",
+          "damage": 90,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Ice Beam",
+          "damage": 65,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Electric", "Grass"],
+    "fleeRate": 0.05,
+    "maxCP": 2355,
+    "maxHP": 2542,
+    "evolutions": null,
+    "evolutionRequirements": null,
+    "__typename": "Pokemon"
+  },
+  {
+    "id": "Caterpie",
+    "name": "Caterpie",
+    "image": "https://img.pokemondb.net/artwork/caterpie.jpg",
+    "number": "010",
+    "weight": {
+      "minimum": "2.54kg",
+      "maximum": "3.26kg",
+      "__typename": "PokemonDimension"
+    },
+    "height": {
+      "minimum": "0.26m",
+      "maximum": "0.34m",
+      "__typename": "PokemonDimension"
+    },
+    "classification": "Worm Pokémon",
+    "types": ["Bug"],
+    "resistant": ["Grass", "Fighting", "Ground"],
+    "attacks": {
+      "fast": [
+        {
+          "name": "Bug Bite",
+          "damage": 5,
+          "__typename": "Attack"
+        },
+        {
+          "name": "Tackle",
+          "damage": 12,
+          "__typename": "Attack"
+        }
+      ],
+      "special": [
+        {
+          "name": "Struggle",
+          "damage": 15,
+          "__typename": "Attack"
+        }
+      ],
+      "__typename": "PokemonAttack"
+    },
+    "weaknesses": ["Fire", "Flying", "Rock"],
+    "fleeRate": 0.2,
+    "maxCP": 367,
+    "maxHP": 443,
+    "evolutions": [
+      {
+        "name": "Metapod",
+        "image": "https://img.pokemondb.net/artwork/metapod.jpg",
+        "__typename": "Pokemon"
+      },
+      {
+        "name": "Butterfree",
+        "image": "https://img.pokemondb.net/artwork/butterfree.jpg",
+        "__typename": "Pokemon"
+      }
+    ],
+    "evolutionRequirements": {
+      "amount": 12,
+      "name": "Caterpie candies",
+      "__typename": "PokemonEvolutionRequirement"
+    },
+    "__typename": "Pokemon"
+  }
+]

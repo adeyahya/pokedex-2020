@@ -1,0 +1,1455 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon Card renders correctly for case 0 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Bulbasaur"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Bulbasaur"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/bulbasaur.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Bulbasaur"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Bulbasaur
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Seed Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Poison
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              6.04kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              7.76kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              1071
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              951
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Card renders correctly for case 1 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Ivysaur"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Ivysaur"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/ivysaur.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Ivysaur"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Ivysaur
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Seed Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Poison
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              11.38kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              14.63kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              1632
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              1483
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Card renders correctly for case 2 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Venusaur"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Venusaur"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/venusaur.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Venusaur"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Venusaur
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Seed Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Poison
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              87.5kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              112.5kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              2580
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              2392
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Card renders correctly for case 3 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Charmander"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Charmander"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/charmander.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Charmander"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Charmander
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Lizard Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              7.44kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              9.56kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              955
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              841
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Card renders correctly for case 4 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Charmeleon"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Charmeleon"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/charmeleon.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Charmeleon"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Charmeleon
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Flame Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              16.63kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              21.38kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              1557
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              1411
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Card renders correctly for case 5 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Charizard"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Charizard"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/charizard.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Charizard"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Charizard
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Flame Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Flying
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              79.19kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              101.81kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              2602
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              2413
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Card renders correctly for case 6 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Squirtle"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Squirtle"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/squirtle.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Squirtle"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Squirtle
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Tiny Turtle Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              7.88kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              10.13kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              1008
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              891
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Card renders correctly for case 7 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Wartortle"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Wartortle"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/wartortle.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Wartortle"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Wartortle
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Turtle Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              19.69kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              25.31kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              1582
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              1435
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Card renders correctly for case 8 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Blastoise"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Blastoise"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/blastoise.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Blastoise"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Blastoise
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Shellfish Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              74.81kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              96.19kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              2542
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              2355
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Card renders correctly for case 9 1`] = `
+<div
+  class="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
+  data-testid="pokemon-card-Caterpie"
+>
+  <figure
+    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+  >
+    <img
+      alt="Caterpie"
+      class="h-full"
+      data-testid="image"
+      src="https://img.pokemondb.net/artwork/caterpie.jpg"
+    />
+  </figure>
+  <div
+    class="p-4"
+  >
+    <a
+      href="/Caterpie"
+    >
+      <h3
+        class="text-lg font-bold mb-0"
+        data-testid="name"
+      >
+        Caterpie
+      </h3>
+    </a>
+    <span
+      class="text-sm italic mb-2 block"
+      data-testid="classification"
+    >
+      Worm Pokémon
+    </span>
+    <div
+      class="mb-3"
+    >
+      <div
+        data-testid="spec-list-types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Bug
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-2"
+    >
+      <div
+        class="grid gap-1 grid-cols-2"
+        data-testid="specs"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            minWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              2.54kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxWg
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              3.26kg
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxHP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              443
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex flex-col"
+        >
+          <span
+            class="text-xs font-bold"
+            data-testid="spec-name"
+          >
+            maxCP
+          </span>
+          <div>
+            <span
+              class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+              data-testid="spec-value"
+            >
+              367
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
