@@ -1,0 +1,4387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon Detail Card renders correctly for case 0 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Bulbasaur"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/bulbasaur.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      >
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Ivysaur"
+        >
+          <img
+            alt="Ivysaur"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/ivysaur.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Ivysaur
+          </span>
+        </a>
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Venusaur"
+        >
+          <img
+            alt="Venusaur"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/venusaur.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Venusaur
+          </span>
+        </a>
+      </div>
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Bulbasaur
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            001
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Seed Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Poison
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ice
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Flying
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Psychic
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Electric
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fighting
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fairy
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Tackle
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                12 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Vine Whip
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                7 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Power Whip
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                70 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Seed Bomb
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                40 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Sludge Bomb
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                55 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1071
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                951
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                7.76kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                6.04kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.79m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.61m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.1
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Detail Card renders correctly for case 1 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Ivysaur"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/ivysaur.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      >
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Venusaur"
+        >
+          <img
+            alt="Venusaur"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/venusaur.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Venusaur
+          </span>
+        </a>
+      </div>
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Ivysaur
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            002
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Seed Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Poison
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ice
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Flying
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Psychic
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Electric
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fighting
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fairy
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Razor Leaf
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                15 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Vine Whip
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                7 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Power Whip
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                70 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Sludge Bomb
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                55 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Solar Beam
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                120 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1632
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1483
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                14.63kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                11.38kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1.13m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.88m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.07
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Detail Card renders correctly for case 2 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Venusaur"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/venusaur.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      />
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Venusaur
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            003
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Seed Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Poison
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ice
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Flying
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Psychic
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Electric
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fighting
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fairy
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Razor Leaf
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                15 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Vine Whip
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                7 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Petal Blizzard
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                65 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Sludge Bomb
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                55 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Solar Beam
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                120 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                2580
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                2392
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                112.5kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                87.5kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                2.25m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1.75m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.05
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Detail Card renders correctly for case 3 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Charmander"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/charmander.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      >
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Charmeleon"
+        >
+          <img
+            alt="Charmeleon"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/charmeleon.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Charmeleon
+          </span>
+        </a>
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Charizard"
+        >
+          <img
+            alt="Charizard"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/charizard.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Charizard
+          </span>
+        </a>
+      </div>
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Charmander
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            004
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Lizard Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ground
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Rock
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ice
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Bug
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Steel
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fairy
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Ember
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                10 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Scratch
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                6 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Flame Burst
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                30 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Flame Charge
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                25 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Flamethrower
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                55 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                955
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                841
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                9.56kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                7.44kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.68m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.53m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.1
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Detail Card renders correctly for case 4 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Charmeleon"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/charmeleon.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      >
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Charizard"
+        >
+          <img
+            alt="Charizard"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/charizard.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Charizard
+          </span>
+        </a>
+      </div>
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Charmeleon
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            005
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Flame Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ground
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Rock
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ice
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Bug
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Steel
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fairy
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Ember
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                10 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Scratch
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                6 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Fire Punch
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                40 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Flame Burst
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                30 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Flamethrower
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                55 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1557
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1411
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                21.38kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                16.63kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1.24m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.96m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.07
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Detail Card renders correctly for case 5 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Charizard"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/charizard.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      />
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Charizard
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            006
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Flame Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Flying
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Electric
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Rock
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fighting
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Bug
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Steel
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fairy
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Ember
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                10 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Wing Attack
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                9 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Dragon Claw
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                35 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Fire Blast
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                100 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Flamethrower
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                55 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                2602
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                2413
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                101.81kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                79.19kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1.91m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1.49m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.05
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Detail Card renders correctly for case 6 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Squirtle"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/squirtle.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      >
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Wartortle"
+        >
+          <img
+            alt="Wartortle"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/wartortle.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Wartortle
+          </span>
+        </a>
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Blastoise"
+        >
+          <img
+            alt="Blastoise"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/blastoise.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Blastoise
+          </span>
+        </a>
+      </div>
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Squirtle
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            007
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Tiny Turtle Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Electric
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ice
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Steel
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Bubble
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                25 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Tackle
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                12 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Aqua Jet
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                25 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Aqua Tail
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                45 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Water Pulse
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                35 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1008
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                891
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                10.13kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                7.88kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.56m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.44m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.1
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Detail Card renders correctly for case 7 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Wartortle"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/wartortle.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      >
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Blastoise"
+        >
+          <img
+            alt="Blastoise"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/blastoise.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Blastoise
+          </span>
+        </a>
+      </div>
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Wartortle
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            008
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Turtle Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Electric
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ice
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Steel
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Bite
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                6 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Water Gun
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                6 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Aqua Jet
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                25 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Gunk Shot
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                65 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Hydro Pump
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                90 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Ice Beam
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                65 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1582
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1435
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                25.31kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                19.69kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1.13m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.88m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.07
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Detail Card renders correctly for case 8 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Blastoise"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/blastoise.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      />
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Blastoise
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            009
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Shellfish Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Electric
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Water
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ice
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Steel
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Bite
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                6 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Water Gun
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                6 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Flash Cannon
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                60 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Gunk Shot
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                65 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Hydro Pump
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                90 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Ice Beam
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                65 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                2542
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                2355
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                96.19kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                74.81kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1.8m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                1.4m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.05
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Detail Card renders correctly for case 9 1`] = `
+<div
+  class="bg-white rounded-lg overflow-hidden"
+  data-testid="pokemon-detail-card"
+>
+  <div
+    class="px-5 grid md:grid-cols-2 gap-4 pt-5 pb-10"
+  >
+    <div
+      class="flex flex-col justify-center items-center pt-5"
+    >
+      <figure
+        class="flex flex-center justify-center"
+      >
+        <img
+          alt="Caterpie"
+          data-testid="image"
+          src="https://img.pokemondb.net/artwork/caterpie.jpg"
+        />
+      </figure>
+      <div
+        class="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
+        data-testid="evolutions"
+      >
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Metapod"
+        >
+          <img
+            alt="Metapod"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/metapod.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Metapod
+          </span>
+        </a>
+        <a
+          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          href="/pokemon/Butterfree"
+        >
+          <img
+            alt="Butterfree"
+            class="md:h-32"
+            data-testid="evolution-image"
+            src="https://img.pokemondb.net/artwork/butterfree.jpg"
+          />
+          <span
+            class="text-lg font-bold block mt-2"
+            data-testid="evolution-name"
+          >
+            Butterfree
+          </span>
+        </a>
+      </div>
+    </div>
+    <section
+      class="md:pl-5"
+    >
+      <header
+        class="mb-4"
+      >
+        <h2
+          class="text-4xl text-bold"
+          data-testid="name"
+        >
+          Caterpie
+           
+          <span
+            class="text-gray-500"
+          >
+            #
+            010
+          </span>
+        </h2>
+        <span
+          class="text-lg italic"
+          data-testid="classification"
+        >
+          Worm Pokémon
+        </span>
+      </header>
+      <div
+        data-testid="spec-list-Types"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Types
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Bug
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Weaknesses"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Weaknesses
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fire
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Flying
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Rock
+          </span>
+        </div>
+      </div>
+      <div
+        class="mb-2"
+      />
+      <div
+        data-testid="spec-list-Resistant"
+      >
+        <h4
+          class="text-sm font-bold mb-2"
+          data-testid="spec-list-label"
+        >
+          Resistant
+        </h4>
+        <div
+          class="flex flex-row"
+        >
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Grass
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Fighting
+          </span>
+          <span
+            class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+            data-testid="spec-list-value"
+          >
+            Ground
+          </span>
+        </div>
+      </div>
+      <div
+        class="mt-4 mb-4"
+      >
+        <h4
+          class="text-xl font-bold"
+        >
+          Combat
+        </h4>
+        <div
+          class="mb-2"
+        />
+        <span
+          class="font-lg font-bold"
+        >
+          Fast Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Bug Bite
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                5 Damage
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Tackle
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                12 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+        <span
+          class="block font-lg font-bold mt-4"
+        >
+          Special Attack
+        </span>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              Struggle
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                15 Damage
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h4
+          class="text-xl font-bold"
+        >
+          Attributes
+        </h4>
+        <div
+          class="flex justify-start flex-wrap"
+          data-testid="specs"
+        >
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHp
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                443
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxCP
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                367
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                3.26kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinWeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                2.54kg
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MaxHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.34m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              MinHeight
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.26m
+              </span>
+            </div>
+          </div>
+          <div
+            class="flex flex-initial flex-col mr-2 mt-2"
+          >
+            <span
+              class="text-xs font-bold"
+              data-testid="spec-name"
+            >
+              FleeRate
+            </span>
+            <div>
+              <span
+                class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+                data-testid="spec-value"
+              >
+                0.2
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
