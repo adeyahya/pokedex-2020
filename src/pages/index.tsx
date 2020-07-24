@@ -1,11 +1,24 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent } from 'react';
+import { useQuery } from '@apollo/react-hooks';
 
-const Index: FunctionComponent<{}> = () => {
+import { getPokemonListQuery } from '../queries/getPokemonList.query';
+import { getPokemonList, getPokemonListVariables } from '../queries/types/getPokemonList';
+import { PokemonCard } from '../components/PokemonCard';
+
+const Index: FunctionComponent = () => {
+  const { data } = useQuery<getPokemonList, getPokemonListVariables>(getPokemonListQuery, {
+    variables: {
+      first: 12,
+    },
+  });
+
   return (
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse maiores, minima facere cupiditate consequuntur provident? Nemo neque quas expedita natus minima doloribus necessitatibus, ut sint consectetur, quaerat pariatur debitis perspiciatis!
-    </p>
-  )
-}
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 px-5 my-10">
+      {data?.pokemons?.items?.map((pokemon, idx) => (
+        <PokemonCard prefixUrl="/pokemon/" key={pokemon?.name || idx} pokemon={pokemon} />
+      ))}
+    </div>
+  );
+};
 
 export default Index;
