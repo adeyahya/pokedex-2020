@@ -6,7 +6,7 @@ exports[`Pokemon Card renders correctly for case 0 1`] = `
   data-testid="pokemon-card-Bulbasaur"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Bulbasaur"
@@ -19,13 +19,20 @@ exports[`Pokemon Card renders correctly for case 0 1`] = `
     class="p-4"
   >
     <a
-      href="/Bulbasaur"
+      href="/pokemon/Bulbasaur"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Bulbasaur
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          001
+        </span>
       </h3>
     </a>
     <span
@@ -68,17 +75,17 @@ exports[`Pokemon Card renders correctly for case 0 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -90,13 +97,13 @@ exports[`Pokemon Card renders correctly for case 0 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -108,13 +115,13 @@ exports[`Pokemon Card renders correctly for case 0 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -126,13 +133,13 @@ exports[`Pokemon Card renders correctly for case 0 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span
@@ -155,7 +162,7 @@ exports[`Pokemon Card renders correctly for case 1 1`] = `
   data-testid="pokemon-card-Ivysaur"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Ivysaur"
@@ -168,13 +175,20 @@ exports[`Pokemon Card renders correctly for case 1 1`] = `
     class="p-4"
   >
     <a
-      href="/Ivysaur"
+      href="/pokemon/Ivysaur"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Ivysaur
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          002
+        </span>
       </h3>
     </a>
     <span
@@ -217,17 +231,17 @@ exports[`Pokemon Card renders correctly for case 1 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -239,13 +253,13 @@ exports[`Pokemon Card renders correctly for case 1 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -257,13 +271,13 @@ exports[`Pokemon Card renders correctly for case 1 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -275,13 +289,13 @@ exports[`Pokemon Card renders correctly for case 1 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span
@@ -304,7 +318,7 @@ exports[`Pokemon Card renders correctly for case 2 1`] = `
   data-testid="pokemon-card-Venusaur"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Venusaur"
@@ -317,13 +331,20 @@ exports[`Pokemon Card renders correctly for case 2 1`] = `
     class="p-4"
   >
     <a
-      href="/Venusaur"
+      href="/pokemon/Venusaur"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Venusaur
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          003
+        </span>
       </h3>
     </a>
     <span
@@ -366,17 +387,17 @@ exports[`Pokemon Card renders correctly for case 2 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -388,13 +409,13 @@ exports[`Pokemon Card renders correctly for case 2 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -406,13 +427,13 @@ exports[`Pokemon Card renders correctly for case 2 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -424,13 +445,13 @@ exports[`Pokemon Card renders correctly for case 2 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span
@@ -453,7 +474,7 @@ exports[`Pokemon Card renders correctly for case 3 1`] = `
   data-testid="pokemon-card-Charmander"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Charmander"
@@ -466,13 +487,20 @@ exports[`Pokemon Card renders correctly for case 3 1`] = `
     class="p-4"
   >
     <a
-      href="/Charmander"
+      href="/pokemon/Charmander"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Charmander
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          004
+        </span>
       </h3>
     </a>
     <span
@@ -509,17 +537,17 @@ exports[`Pokemon Card renders correctly for case 3 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -531,13 +559,13 @@ exports[`Pokemon Card renders correctly for case 3 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -549,13 +577,13 @@ exports[`Pokemon Card renders correctly for case 3 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -567,13 +595,13 @@ exports[`Pokemon Card renders correctly for case 3 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span
@@ -596,7 +624,7 @@ exports[`Pokemon Card renders correctly for case 4 1`] = `
   data-testid="pokemon-card-Charmeleon"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Charmeleon"
@@ -609,13 +637,20 @@ exports[`Pokemon Card renders correctly for case 4 1`] = `
     class="p-4"
   >
     <a
-      href="/Charmeleon"
+      href="/pokemon/Charmeleon"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Charmeleon
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          005
+        </span>
       </h3>
     </a>
     <span
@@ -652,17 +687,17 @@ exports[`Pokemon Card renders correctly for case 4 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -674,13 +709,13 @@ exports[`Pokemon Card renders correctly for case 4 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -692,13 +727,13 @@ exports[`Pokemon Card renders correctly for case 4 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -710,13 +745,13 @@ exports[`Pokemon Card renders correctly for case 4 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span
@@ -739,7 +774,7 @@ exports[`Pokemon Card renders correctly for case 5 1`] = `
   data-testid="pokemon-card-Charizard"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Charizard"
@@ -752,13 +787,20 @@ exports[`Pokemon Card renders correctly for case 5 1`] = `
     class="p-4"
   >
     <a
-      href="/Charizard"
+      href="/pokemon/Charizard"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Charizard
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          006
+        </span>
       </h3>
     </a>
     <span
@@ -801,17 +843,17 @@ exports[`Pokemon Card renders correctly for case 5 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -823,13 +865,13 @@ exports[`Pokemon Card renders correctly for case 5 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -841,13 +883,13 @@ exports[`Pokemon Card renders correctly for case 5 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -859,13 +901,13 @@ exports[`Pokemon Card renders correctly for case 5 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span
@@ -888,7 +930,7 @@ exports[`Pokemon Card renders correctly for case 6 1`] = `
   data-testid="pokemon-card-Squirtle"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Squirtle"
@@ -901,13 +943,20 @@ exports[`Pokemon Card renders correctly for case 6 1`] = `
     class="p-4"
   >
     <a
-      href="/Squirtle"
+      href="/pokemon/Squirtle"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Squirtle
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          007
+        </span>
       </h3>
     </a>
     <span
@@ -944,17 +993,17 @@ exports[`Pokemon Card renders correctly for case 6 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -966,13 +1015,13 @@ exports[`Pokemon Card renders correctly for case 6 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -984,13 +1033,13 @@ exports[`Pokemon Card renders correctly for case 6 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -1002,13 +1051,13 @@ exports[`Pokemon Card renders correctly for case 6 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span
@@ -1031,7 +1080,7 @@ exports[`Pokemon Card renders correctly for case 7 1`] = `
   data-testid="pokemon-card-Wartortle"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Wartortle"
@@ -1044,13 +1093,20 @@ exports[`Pokemon Card renders correctly for case 7 1`] = `
     class="p-4"
   >
     <a
-      href="/Wartortle"
+      href="/pokemon/Wartortle"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Wartortle
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          008
+        </span>
       </h3>
     </a>
     <span
@@ -1087,17 +1143,17 @@ exports[`Pokemon Card renders correctly for case 7 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -1109,13 +1165,13 @@ exports[`Pokemon Card renders correctly for case 7 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -1127,13 +1183,13 @@ exports[`Pokemon Card renders correctly for case 7 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -1145,13 +1201,13 @@ exports[`Pokemon Card renders correctly for case 7 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span
@@ -1174,7 +1230,7 @@ exports[`Pokemon Card renders correctly for case 8 1`] = `
   data-testid="pokemon-card-Blastoise"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Blastoise"
@@ -1187,13 +1243,20 @@ exports[`Pokemon Card renders correctly for case 8 1`] = `
     class="p-4"
   >
     <a
-      href="/Blastoise"
+      href="/pokemon/Blastoise"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Blastoise
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          009
+        </span>
       </h3>
     </a>
     <span
@@ -1230,17 +1293,17 @@ exports[`Pokemon Card renders correctly for case 8 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -1252,13 +1315,13 @@ exports[`Pokemon Card renders correctly for case 8 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -1270,13 +1333,13 @@ exports[`Pokemon Card renders correctly for case 8 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -1288,13 +1351,13 @@ exports[`Pokemon Card renders correctly for case 8 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span
@@ -1317,7 +1380,7 @@ exports[`Pokemon Card renders correctly for case 9 1`] = `
   data-testid="pokemon-card-Caterpie"
 >
   <figure
-    class="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4"
+    class="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4"
   >
     <img
       alt="Caterpie"
@@ -1330,13 +1393,20 @@ exports[`Pokemon Card renders correctly for case 9 1`] = `
     class="p-4"
   >
     <a
-      href="/Caterpie"
+      href="/pokemon/Caterpie"
     >
       <h3
         class="text-lg font-bold mb-0"
         data-testid="name"
       >
         Caterpie
+         
+        <span
+          class="text-gray-500"
+        >
+          #
+          010
+        </span>
       </h3>
     </a>
     <span
@@ -1373,17 +1443,17 @@ exports[`Pokemon Card renders correctly for case 9 1`] = `
       class="mt-2"
     >
       <div
-        class="grid gap-1 grid-cols-2"
+        class="flex justify-start flex-wrap"
         data-testid="specs"
       >
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            minWg
+            MinWg
           </span>
           <div>
             <span
@@ -1395,13 +1465,13 @@ exports[`Pokemon Card renders correctly for case 9 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxWg
+            MaxWg
           </span>
           <div>
             <span
@@ -1413,13 +1483,13 @@ exports[`Pokemon Card renders correctly for case 9 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxHP
+            MaxHP
           </span>
           <div>
             <span
@@ -1431,13 +1501,13 @@ exports[`Pokemon Card renders correctly for case 9 1`] = `
           </div>
         </div>
         <div
-          class="flex flex-col"
+          class="flex flex-initial flex-col mr-2 mt-2"
         >
           <span
             class="text-xs font-bold"
             data-testid="spec-name"
           >
-            maxCP
+            MaxCP
           </span>
           <div>
             <span

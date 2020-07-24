@@ -7,15 +7,15 @@ import { useRouter } from 'next/dist/client/router';
 
 interface Props {
   pokemon: PokemonFragment | null;
-  prefixUrl?: string;
 }
 
-export const PokemonCard: FunctionComponent<Props> = ({ pokemon, prefixUrl = '/' }) => {
+export const PokemonCard: FunctionComponent<Props> = ({ pokemon }) => {
   const router = useRouter();
-  const targetUrl = prefixUrl.concat(pokemon?.id || '');
+  const pokemonDetailRoute = '/pokemon/[pid]';
+  const targetUrl = '/pokemon/'.concat(pokemon?.id || '');
 
   const handleClick = useCallback(() => {
-    router.push(targetUrl);
+    router.push(pokemonDetailRoute, targetUrl);
   }, [targetUrl]);
 
   return (
@@ -24,7 +24,7 @@ export const PokemonCard: FunctionComponent<Props> = ({ pokemon, prefixUrl = '/'
       className="shadow hover:shadow-lg bg-white rounded-lg cursor-pointer"
       data-testid={`pokemon-card-${pokemon?.name}`}
     >
-      <figure className="h-20 md:h-32 lg:h-40 flex items-center justify-center pt-4">
+      <figure className="h-40 md:h-32 lg:h-40 flex items-center justify-center pt-4">
         <img
           className="h-full"
           src={pokemon?.image || ''}
@@ -33,10 +33,10 @@ export const PokemonCard: FunctionComponent<Props> = ({ pokemon, prefixUrl = '/'
         />
       </figure>
       <div className="p-4">
-        <Link href={targetUrl}>
+        <Link href={pokemonDetailRoute} as={targetUrl}>
           <a>
             <h3 className="text-lg font-bold mb-0" data-testid="name">
-              {pokemon?.name}
+              {pokemon?.name} <span className="text-gray-500">#{pokemon?.number}</span>
             </h3>
           </a>
         </Link>
@@ -49,10 +49,10 @@ export const PokemonCard: FunctionComponent<Props> = ({ pokemon, prefixUrl = '/'
         <div className="mt-2">
           <SpecsCard
             specs={{
-              minWg: pokemon?.weight?.minimum,
-              maxWg: pokemon?.weight?.maximum,
-              maxHP: pokemon?.maxHP,
-              maxCP: pokemon?.maxCP,
+              MinWg: pokemon?.weight?.minimum,
+              MaxWg: pokemon?.weight?.maximum,
+              MaxHP: pokemon?.maxHP,
+              MaxCP: pokemon?.maxCP,
             }}
           />
         </div>

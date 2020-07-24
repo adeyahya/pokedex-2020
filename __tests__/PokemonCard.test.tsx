@@ -13,8 +13,8 @@ describe('Pokemon Card', () => {
     const anchorNode = root.querySelector('a')?.getAttribute('href');
     const imageNode = root.querySelector('[data-testid=image]')?.getAttribute('src');
     expect(root).toMatchSnapshot();
-    expect(nameInNode).toEqual(name);
-    expect(anchorNode).toEqual(`/${name}`);
+    expect(nameInNode).toContain(name);
+    expect(anchorNode).toEqual(`/pokemon/${name}`);
     expect(imageNode).toEqual(image);
   });
 });
