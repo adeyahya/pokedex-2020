@@ -1,4 +1,7 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { FunctionComponent, memo } from 'react';
+// @ts-ignore
+import qcompare from 'qcompare';
 
 interface Props {
   specs: Record<string, React.ReactNode>;
@@ -26,5 +29,5 @@ export const SpecsCard: FunctionComponent<Props> = memo(
       </div>
     );
   },
-  () => true
+  (prev, next) => qcompare(prev, next)
 );
