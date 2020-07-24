@@ -45,7 +45,7 @@ export const PokemonDetailCard: FunctionComponent<Props> = memo(({ pokemon }) =>
                 href={pokemonDetailRoute}
                 as={`/pokemon/${evolution?.name || ''}`}
               >
-                <a className="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5">
+                <a className="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5">
                   <img
                     data-testid="evolution-image"
                     className="md:h-32"

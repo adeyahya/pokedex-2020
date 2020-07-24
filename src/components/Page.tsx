@@ -37,7 +37,7 @@ export const Page: FunctionComponent<Props> = memo(({ children }) => {
           </Link>
         </div>
       </nav>
-      <div className="pt-12 lg:pt-20">{children}</div>
+      <div className="pt-20">{children}</div>
     </div>
   );
 });

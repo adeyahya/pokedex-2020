@@ -9,11 +9,13 @@ import { PokemonFragment } from '../../queries/types/PokemonFragment';
 import { getPokemonList, getPokemonListVariables } from '../../queries/types/getPokemonList';
 import { getPokemonListQuery } from '../../queries/getPokemonList.query';
 import { PokemonListCard } from '../../components/PokemonListCard';
+import { usePokemonCacheFilter } from '../../hooks/usePokemonCacheFilter';
 
 const PAGINATION_PAGE_SIZE = 12;
 
 const PokemonDetailPage: FunctionComponent = () => {
   const router = useRouter();
+
   const id = String(router.query?.pid) || 'unknown';
   const { data } = useQuery<getPokemon, getPokemonVariables>(getPokemonQuery, {
     variables: {
@@ -21,9 +23,12 @@ const PokemonDetailPage: FunctionComponent = () => {
     },
   });
 
-  const { data: relatedPokemonData } = useQuery<getPokemonList, getPokemonListVariables>(
+  const othersPokemonFromCache = usePokemonCacheFilter(id, 'not');
+
+  const { data: othersPokemonData } = useQuery<getPokemonList, getPokemonListVariables>(
     getPokemonListQuery,
     {
+      skip: othersPokemonFromCache.length !== 0,
       variables: {
         first: PAGINATION_PAGE_SIZE,
         after: id,
@@ -32,15 +37,15 @@ const PokemonDetailPage: FunctionComponent = () => {
   );
 
   const pokemon = data?.pokemon;
-  const relatedPokemons = relatedPokemonData?.pokemons?.items || [];
+  const othersPokemon = othersPokemonData?.pokemons?.items || othersPokemonFromCache || [];
 
   return (
     <div className="px-2 max-w-screen-lg mx-auto">
       <PokemonDetailCard pokemon={pokemon as PokemonFragment} />
       <h2 className="text-4xl font-bold px-5 mt-10" style={{ marginBottom: '-30px' }}>
-        Related Pokemon
+        Others Pokemon
       </h2>
-      <PokemonListCard pokemons={relatedPokemons} />
+      <PokemonListCard pokemons={othersPokemon} />
     </div>
   );
 };

@@ -25,7 +25,7 @@ exports[`Pokemon Detail Card renders correctly for case 0 1`] = `
         data-testid="evolutions"
       >
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Ivysaur"
         >
           <img
@@ -42,7 +42,7 @@ exports[`Pokemon Detail Card renders correctly for case 0 1`] = `
           </span>
         </a>
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Venusaur"
         >
           <img
@@ -490,7 +490,7 @@ exports[`Pokemon Detail Card renders correctly for case 1 1`] = `
         data-testid="evolutions"
       >
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Venusaur"
         >
           <img
@@ -1368,7 +1368,7 @@ exports[`Pokemon Detail Card renders correctly for case 3 1`] = `
         data-testid="evolutions"
       >
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Charmeleon"
         >
           <img
@@ -1385,7 +1385,7 @@ exports[`Pokemon Detail Card renders correctly for case 3 1`] = `
           </span>
         </a>
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Charizard"
         >
           <img
@@ -1827,7 +1827,7 @@ exports[`Pokemon Detail Card renders correctly for case 4 1`] = `
         data-testid="evolutions"
       >
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Charizard"
         >
           <img
@@ -2699,7 +2699,7 @@ exports[`Pokemon Detail Card renders correctly for case 6 1`] = `
         data-testid="evolutions"
       >
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Wartortle"
         >
           <img
@@ -2716,7 +2716,7 @@ exports[`Pokemon Detail Card renders correctly for case 6 1`] = `
           </span>
         </a>
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Blastoise"
         >
           <img
@@ -3140,7 +3140,7 @@ exports[`Pokemon Detail Card renders correctly for case 7 1`] = `
         data-testid="evolutions"
       >
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Blastoise"
         >
           <img
@@ -4006,7 +4006,7 @@ exports[`Pokemon Detail Card renders correctly for case 9 1`] = `
         data-testid="evolutions"
       >
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Metapod"
         >
           <img
@@ -4023,7 +4023,7 @@ exports[`Pokemon Detail Card renders correctly for case 9 1`] = `
           </span>
         </a>
         <a
-          class="justify-between px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
+          class="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5"
           href="/pokemon/Butterfree"
         >
           <img

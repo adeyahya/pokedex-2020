@@ -45,6 +45,10 @@ const Index: FunctionComponent = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto">
+      <header className="text-center mt-5">
+        <h1 className="text-5xl font-bold">Pokedex</h1>
+        <p className="text-xl font-bold text-gray-700">let&apos;s play pokemon!</p>
+      </header>
       <PokemonListCard
         hasMore={true}
         onLoadMore={handleLoadMore}
