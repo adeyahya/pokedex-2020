@@ -10,7 +10,7 @@ import { PokemonListCard } from '../components/PokemonListCard';
 const PAGINATION_PAGE_SIZE = 12;
 
 const Index: FunctionComponent = () => {
-  const { data, loading, fetchMore } = useQuery<getPokemonList, getPokemonListVariables>(
+  const { data, fetchMore } = useQuery<getPokemonList, getPokemonListVariables>(
     getPokemonListQuery,
     {
       variables: {
@@ -48,7 +48,6 @@ const Index: FunctionComponent = () => {
       <PokemonListCard
         hasMore={true}
         onLoadMore={handleLoadMore}
-        loading={loading}
         pokemons={data?.pokemons?.items || []}
       />
     </div>

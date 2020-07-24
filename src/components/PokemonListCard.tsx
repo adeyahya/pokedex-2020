@@ -6,12 +6,11 @@ interface Props {
   pokemons: (PokemonFragment | null)[];
   hasMore?: boolean;
   loader?: React.ReactNode;
-  loading?: boolean;
   onLoadMore?: () => void;
 }
 
 export const PokemonListCard: FunctionComponent<Props> = memo(
-  ({ pokemons, hasMore, loader, loading, onLoadMore }) => {
+  ({ pokemons, hasMore, loader, onLoadMore }) => {
     const bottomMarkerNode = useRef<HTMLDivElement | null>(null);
     const observer = useRef<IntersectionObserver | null>(null);
 
