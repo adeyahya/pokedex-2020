@@ -114,7 +114,7 @@ const TEST_DATA = [
 describe('Specs Card', () => {
   test.each(TEST_DATA)('renders correctly for case %#', (specs) => {
     render(<SpecsCard specs={specs} />);
-    expect(screen).toMatchSnapshot();
+    expect(screen.getByTestId('specs')).toMatchSnapshot();
     for (const key in specs) {
       expect(screen.getByText(key)).toBeInTheDocument();
       expect(screen.getByText(String((specs as any)[key] || ''))).toBeInTheDocument();

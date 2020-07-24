@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpecList Card renders correctly for case 0 1`] = `
+<div
+  data-testid="spec-list-excepteur-ea"
+>
+  <h4
+    class="text-sm font-bold mb-2"
+    data-testid="spec-list-label"
+  >
+    excepteur-ea
+  </h4>
+  <div
+    class="flex flex-row"
+  >
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      excepteur
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      ea
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      tempor
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      do
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      ex
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      duis
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      eiusmod
+    </span>
+  </div>
+</div>
+`;
+
+exports[`SpecList Card renders correctly for case 1 1`] = `
+<div
+  data-testid="spec-list-cillum-eiusmod"
+>
+  <h4
+    class="text-sm font-bold mb-2"
+    data-testid="spec-list-label"
+  >
+    cillum-eiusmod
+  </h4>
+  <div
+    class="flex flex-row"
+  >
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      cillum
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      eiusmod
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      irure
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      culpa
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      dolore
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      tempor
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      in
+    </span>
+  </div>
+</div>
+`;
+
+exports[`SpecList Card renders correctly for case 2 1`] = `
+<div
+  data-testid="spec-list-anim-est"
+>
+  <h4
+    class="text-sm font-bold mb-2"
+    data-testid="spec-list-label"
+  >
+    anim-est
+  </h4>
+  <div
+    class="flex flex-row"
+  >
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      anim
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      est
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      sit
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      ad
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      veniam
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      duis
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      elit
+    </span>
+  </div>
+</div>
+`;
+
+exports[`SpecList Card renders correctly for case 3 1`] = `
+<div
+  data-testid="spec-list-non-aliquip"
+>
+  <h4
+    class="text-sm font-bold mb-2"
+    data-testid="spec-list-label"
+  >
+    non-aliquip
+  </h4>
+  <div
+    class="flex flex-row"
+  >
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      non
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      aliquip
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      dolore
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      deserunt
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      incididunt
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      eiusmod
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      reprehenderit
+    </span>
+  </div>
+</div>
+`;
+
+exports[`SpecList Card renders correctly for case 4 1`] = `
+<div
+  data-testid="spec-list-culpa-sint"
+>
+  <h4
+    class="text-sm font-bold mb-2"
+    data-testid="spec-list-label"
+  >
+    culpa-sint
+  </h4>
+  <div
+    class="flex flex-row"
+  >
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      culpa
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      sint
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      dolore
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      exercitation
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      irure
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      veniam
+    </span>
+  </div>
+</div>
+`;
+
+exports[`SpecList Card renders correctly for case 5 1`] = `
+<div
+  data-testid="spec-list-occaecat-voluptate"
+>
+  <h4
+    class="text-sm font-bold mb-2"
+    data-testid="spec-list-label"
+  >
+    occaecat-voluptate
+  </h4>
+  <div
+    class="flex flex-row"
+  >
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      occaecat
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      voluptate
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      non
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      nostrud
+    </span>
+    <span
+      class="mr-2 bg-teal-200 px-2 text-sm font-medium rounded-full"
+      data-testid="spec-list-value"
+    >
+      proident
+    </span>
+  </div>
+</div>
+`;

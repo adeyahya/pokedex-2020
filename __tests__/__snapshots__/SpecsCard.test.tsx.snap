@@ -1,379 +1,1605 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Specs Card renders correctly for case 0 1`] = `
-Object {
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-}
+<div
+  class="grid gap-1 grid-cols-2"
+  data-testid="specs"
+>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      lorem
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        ipsum
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      dolor
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        sit amet
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Specs Card renders correctly for case 1 1`] = `
-Object {
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-}
+<div
+  class="grid gap-1 grid-cols-2"
+  data-testid="specs"
+>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      balance
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        $2,689.95
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      picture
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        http://placehold.it/32x32
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      age
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        20
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      eyeColor
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        green
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      name
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Judy Jordan
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      gender
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        female
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      company
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        HONOTRON
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      email
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        judyjordan@honotron.com
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      phone
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        +1 (929) 599-2800
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      address
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        120 Cedar Street, Cleary, South Carolina, 6010
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      about
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Enim quis cupidatat occaecat irure ad. Occaecat et quis deserunt cupidatat occaecat. Ut voluptate nostrud sit sit pariatur fugiat veniam sint in dolor magna. Est aliquip velit ad est.
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      registered
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        2019-08-21T07:13:37 -07:00
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      latitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        -80.107205
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      longitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        -145.617824
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Specs Card renders correctly for case 2 1`] = `
-Object {
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-}
+<div
+  class="grid gap-1 grid-cols-2"
+  data-testid="specs"
+>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      balance
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        $2,824.19
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      picture
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        http://placehold.it/32x32
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      age
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        22
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      eyeColor
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        green
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      name
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Chapman Elliott
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      gender
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        male
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      company
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        INQUALA
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      email
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        chapmanelliott@inquala.com
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      phone
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        +1 (982) 584-2658
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      address
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        682 Albemarle Terrace, Norfolk, Connecticut, 836
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      about
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Ut quis non veniam deserunt ad commodo sint ad deserunt officia. Mollit irure do mollit dolore ex ipsum. Pariatur aliqua eiusmod sint pariatur in adipisicing laborum. Nostrud adipisicing sit commodo incididunt nisi est proident proident. Veniam incididunt pariatur ea nostrud velit esse proident velit nisi ullamco enim est ipsum. Minim fugiat consectetur irure Lorem tempor culpa non incididunt consectetur nostrud duis et culpa. Occaecat ea in commodo adipisicing quis nisi eiusmod ipsum incididunt voluptate magna incididunt consequat.
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      registered
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        2017-12-10T06:10:17 -07:00
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      latitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        12.094641
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      longitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        -146.532637
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Specs Card renders correctly for case 3 1`] = `
-Object {
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-}
+<div
+  class="grid gap-1 grid-cols-2"
+  data-testid="specs"
+>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      balance
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        $1,399.49
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      picture
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        http://placehold.it/32x32
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      age
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        34
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      eyeColor
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        green
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      name
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Payne Mcintyre
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      gender
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        male
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      company
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        VITRICOMP
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      email
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        paynemcintyre@vitricomp.com
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      phone
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        +1 (895) 568-2713
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      address
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        498 Adler Place, Jennings, Montana, 9912
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      about
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Duis sunt est veniam pariatur reprehenderit labore eiusmod Lorem anim minim magna esse est. Minim esse sunt dolore ad cupidatat sit dolor et quis. Minim culpa ea ex proident sit eu enim elit sunt ex velit enim ut exercitation. Amet irure non dolore commodo. Et excepteur occaecat tempor esse proident laborum elit voluptate. Duis esse reprehenderit incididunt incididunt. Fugiat ipsum culpa ipsum quis voluptate dolore ullamco irure ullamco duis do veniam id fugiat.
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      registered
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        2020-02-07T09:25:17 -07:00
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      latitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        38.790646
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      longitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        138.844174
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Specs Card renders correctly for case 4 1`] = `
-Object {
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-}
+<div
+  class="grid gap-1 grid-cols-2"
+  data-testid="specs"
+>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      balance
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        $2,330.39
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      picture
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        http://placehold.it/32x32
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      age
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        37
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      eyeColor
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        blue
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      name
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Burks Stevens
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      gender
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        male
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      company
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        POSHOME
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      email
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        burksstevens@poshome.com
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      phone
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        +1 (943) 465-3521
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      address
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        292 Malbone Street, Carlton, Colorado, 6591
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      about
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Nisi excepteur enim fugiat sit enim deserunt ex occaecat aliqua enim. Enim est enim sit aliqua mollit eiusmod quis voluptate pariatur incididunt. Occaecat velit cupidatat mollit officia. Occaecat do sit sit esse elit minim proident reprehenderit dolor veniam commodo. Reprehenderit exercitation fugiat nostrud sit ad eu.
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      registered
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        2016-08-01T04:14:54 -07:00
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      latitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        24.251819
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      longitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        -64.015765
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Specs Card renders correctly for case 5 1`] = `
-Object {
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-}
+<div
+  class="grid gap-1 grid-cols-2"
+  data-testid="specs"
+>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      balance
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        $3,168.20
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      picture
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        http://placehold.it/32x32
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      age
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        40
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      eyeColor
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        blue
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      name
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Merritt Lucas
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      gender
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        male
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      company
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        POLARIA
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      email
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        merrittlucas@polaria.com
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      phone
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        +1 (992) 436-2029
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      address
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        489 Brightwater Court, Rockhill, Florida, 9295
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      about
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Labore nostrud nulla adipisicing reprehenderit sit. Anim cupidatat incididunt sint est velit in deserunt fugiat sunt laboris id adipisicing. Incididunt enim ad est consequat amet exercitation consequat aliqua. Nostrud culpa consequat ut officia aliquip pariatur dolor sunt cupidatat.
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      registered
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        2020-01-19T02:17:47 -07:00
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      latitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        33.595557
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      longitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        103.094224
+      </span>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Specs Card renders correctly for case 6 1`] = `
-Object {
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-}
+<div
+  class="grid gap-1 grid-cols-2"
+  data-testid="specs"
+>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      balance
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        $2,699.97
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      picture
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        http://placehold.it/32x32
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      age
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        40
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      eyeColor
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        brown
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      name
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Lois Dyer
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      gender
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        female
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      company
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        NIKUDA
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      email
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        loisdyer@nikuda.com
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      phone
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        +1 (924) 429-3954
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      address
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        133 Ford Street, Lemoyne, California, 7678
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      about
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        Qui cupidatat est irure magna nulla commodo mollit ea dolor. Ut tempor veniam duis excepteur ea qui. Exercitation incididunt laboris cillum tempor fugiat aliquip aute.
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      registered
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        2016-03-02T04:10:04 -07:00
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      latitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        -31.919402
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex flex-col"
+  >
+    <span
+      class="text-xs font-bold"
+      data-testid="spec-name"
+    >
+      longitude
+    </span>
+    <div>
+      <span
+        class="bg-green-400 p-1 font-bold rounded-lg text-xs"
+        data-testid="spec-value"
+      >
+        120.421994
+      </span>
+    </div>
+  </div>
+</div>
 `;
