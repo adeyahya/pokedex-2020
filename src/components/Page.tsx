@@ -12,7 +12,7 @@ export const Page: FunctionComponent<Props> = memo(({ children }) => {
 
   return (
     <div>
-      <nav className="flex items-center justify-between flex-wrap bg-indigo-900 p-5">
+      <nav className="flex items-center justify-between flex-wrap bg-indigo-900 p-5 fixed w-full top-0 left-0">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           {!isHomepage && (
             <button onClick={router.back} className="lg:hidden mr-4">
@@ -37,7 +37,7 @@ export const Page: FunctionComponent<Props> = memo(({ children }) => {
           </Link>
         </div>
       </nav>
-      {children}
+      <div className="pt-12">{children}</div>
     </div>
   );
 });
