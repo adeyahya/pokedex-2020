@@ -39,11 +39,7 @@ export const PokemonDetailCard: FunctionComponent<Props> = memo(({ pokemon }) =>
             className="flex flex-1 w-full flex-row items-center justify-center; md:items-start md:px-5 mt-10"
           >
             {pokemon?.evolutions?.map((evolution, idx) => (
-              <Link
-                key={evolution?.name || idx}
-                href={`/pokemon?pid=${evolution?.name || ''}`}
-                as={`/pokemon/${evolution?.name || ''}`}
-              >
+              <Link key={evolution?.name || idx} href={`/pokemon?pid=${evolution?.name || ''}`}>
                 <a className="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5">
                   <img
                     data-testid="evolution-image"

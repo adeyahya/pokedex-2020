@@ -13,7 +13,7 @@ export const PokemonCard: FunctionComponent<Props> = ({ pokemon }) => {
   const router = useRouter();
 
   const handleClick = useCallback(() => {
-    router.push(`/pokemon?pid=${pokemon?.id || ''}`, `/pokemon/${pokemon?.id || ''}`);
+    router.push(`/pokemon?pid=${pokemon?.id || ''}`);
   }, [pokemon]);
 
   return (
@@ -31,7 +31,7 @@ export const PokemonCard: FunctionComponent<Props> = ({ pokemon }) => {
         />
       </figure>
       <div className="p-4">
-        <Link href={`/pokemon?pid=${pokemon?.id || ''}`} as={`/pokemon/${pokemon?.id || ''}`}>
+        <Link href={`/pokemon?pid=${pokemon?.id || ''}`}>
           <a>
             <h3 className="text-lg font-bold mb-0" data-testid="name">
               {pokemon?.name} <span className="text-gray-500">#{pokemon?.number}</span>
