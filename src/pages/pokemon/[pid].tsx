@@ -15,7 +15,7 @@ const PAGINATION_PAGE_SIZE = 12;
 const PokemonDetailPage: FunctionComponent = () => {
   const router = useRouter();
   const id = String(router.query?.pid) || 'unknown';
-  const { data, loading } = useQuery<getPokemon, getPokemonVariables>(getPokemonQuery, {
+  const { data } = useQuery<getPokemon, getPokemonVariables>(getPokemonQuery, {
     variables: {
       id,
     },
@@ -33,8 +33,6 @@ const PokemonDetailPage: FunctionComponent = () => {
 
   const pokemon = data?.pokemon;
   const relatedPokemons = relatedPokemonData?.pokemons?.items || [];
-
-  if (loading) return <p>loading</p>;
 
   return (
     <div className="px-2 max-w-screen-lg mx-auto">
