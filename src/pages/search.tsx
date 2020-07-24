@@ -9,6 +9,7 @@ import { usePokemonCacheFilter } from '../hooks/usePokemonCacheFilter';
 import { PokemonFragment } from '../queries/types/PokemonFragment';
 import { SearchIcon } from '../components/SearchIcon';
 import { FourOFourIcon } from '../components/FourOFourIcon';
+import Head from 'next/head';
 
 const Index: FunctionComponent = () => {
   const [keyword, setKeyword] = useState('');
@@ -33,6 +34,9 @@ const Index: FunctionComponent = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto">
+      <Head>
+        <title>Search Pokemon | Pokedex</title>
+      </Head>
       <header className="text-center mt-5 px-5">
         <input
           value={keyword}

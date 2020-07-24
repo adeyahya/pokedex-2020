@@ -10,6 +10,7 @@ import { getPokemonList, getPokemonListVariables } from '../../queries/types/get
 import { getPokemonListQuery } from '../../queries/getPokemonList.query';
 import { PokemonListCard } from '../../components/PokemonListCard';
 import { usePokemonCacheFilter } from '../../hooks/usePokemonCacheFilter';
+import Head from 'next/head';
 
 const PAGINATION_PAGE_SIZE = 12;
 
@@ -41,6 +42,9 @@ const PokemonDetailPage: FunctionComponent = () => {
 
   return (
     <div className="px-2 max-w-screen-lg mx-auto">
+      <Head>
+        <title>{pokemon?.name} | Pokedex</title>
+      </Head>
       <PokemonDetailCard pokemon={pokemon as PokemonFragment} />
       <h2 className="text-4xl font-bold px-5 mt-10" style={{ marginBottom: '-30px' }}>
         Others Pokemon

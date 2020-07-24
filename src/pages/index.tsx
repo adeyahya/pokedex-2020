@@ -2,6 +2,7 @@
 import { FunctionComponent, useCallback } from 'react';
 import update from 'react-addons-update';
 import { useQuery } from '@apollo/react-hooks';
+import Head from 'next/head';
 
 import { getPokemonListQuery } from '../queries/getPokemonList.query';
 import { getPokemonList, getPokemonListVariables } from '../queries/types/getPokemonList';
@@ -45,6 +46,9 @@ const Index: FunctionComponent = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto">
+      <Head>
+        <title>Pokedex</title>
+      </Head>
       <header className="text-center mt-5">
         <h1 className="text-5xl font-bold">Pokedex</h1>
         <p className="text-xl font-bold text-gray-700">let&apos;s play pokemon!</p>

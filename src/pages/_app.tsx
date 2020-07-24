@@ -5,6 +5,7 @@ import { withApollo } from '../utils/apollo/withApollo';
 import { Page } from '../components/Page';
 import { useRouter } from 'next/dist/client/router';
 import '../styles/index.css';
+import Head from 'next/head';
 
 interface Props {
   Component: NextComponentType;
@@ -37,8 +38,21 @@ const App: FunctionComponent<Props> = ({ Component, pageProps }) => {
     });
   }, [router.asPath]);
 
+  useEffect(() => {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+  }, []);
+
   return (
     <Page>
+      <Head>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" type="image/ico" href="/images/icons/icon-128x128.png" />
+        <meta name="theme-color" content="#3C366B" />
+        <link rel="manifest" href="/manifest.json" />
+      </Head>
       <Component {...pageProps} />
     </Page>
   );
