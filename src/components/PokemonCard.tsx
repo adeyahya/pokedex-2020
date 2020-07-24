@@ -11,12 +11,10 @@ interface Props {
 
 export const PokemonCard: FunctionComponent<Props> = ({ pokemon }) => {
   const router = useRouter();
-  const pokemonDetailRoute = '/pokemon/[pid]';
-  const targetUrl = '/pokemon/'.concat(pokemon?.id || '');
 
   const handleClick = useCallback(() => {
-    router.push(pokemonDetailRoute, targetUrl);
-  }, [targetUrl]);
+    router.push(`/pokemon?pid=${pokemon?.id || ''}`, `/pokemon/${pokemon?.id || ''}`);
+  }, [pokemon]);
 
   return (
     <div
@@ -33,7 +31,7 @@ export const PokemonCard: FunctionComponent<Props> = ({ pokemon }) => {
         />
       </figure>
       <div className="p-4">
-        <Link href={pokemonDetailRoute} as={targetUrl}>
+        <Link href={`/pokemon?pid=${pokemon?.id || ''}`} as={`/pokemon/${pokemon?.id || ''}`}>
           <a>
             <h3 className="text-lg font-bold mb-0" data-testid="name">
               {pokemon?.name} <span className="text-gray-500">#{pokemon?.number}</span>

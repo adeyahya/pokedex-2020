@@ -10,7 +10,6 @@ interface Props {
 }
 
 export const PokemonDetailCard: FunctionComponent<Props> = memo(({ pokemon }) => {
-  const pokemonDetailRoute = '/pokemon/[pid]';
   const fastAttacks: Record<string, string> = (pokemon?.attacks?.fast || []).reduce((acc, curr) => {
     const { name = 'unknown', damage = 'unknown' } = curr || {};
     // @ts-ignore: it still syas that name can be null even after adding default value
@@ -42,7 +41,7 @@ export const PokemonDetailCard: FunctionComponent<Props> = memo(({ pokemon }) =>
             {pokemon?.evolutions?.map((evolution, idx) => (
               <Link
                 key={evolution?.name || idx}
-                href={pokemonDetailRoute}
+                href={`/pokemon?pid=${evolution?.name || ''}`}
                 as={`/pokemon/${evolution?.name || ''}`}
               >
                 <a className="justify-between w-1/2 px-5 md:px-0 md:justify-start md:px-auto md:mr-5">

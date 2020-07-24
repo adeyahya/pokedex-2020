@@ -2,14 +2,14 @@
 import { FunctionComponent } from 'react';
 import { useRouter } from 'next/dist/client/router';
 import { useQuery } from '@apollo/react-hooks';
-import { getPokemonQuery } from '../../queries/getPokemon.query';
-import { getPokemon, getPokemonVariables } from '../../queries/types/getPokemon';
-import { PokemonDetailCard } from '../../components/PokemonDetailCard';
-import { PokemonFragment } from '../../queries/types/PokemonFragment';
-import { getPokemonList, getPokemonListVariables } from '../../queries/types/getPokemonList';
-import { getPokemonListQuery } from '../../queries/getPokemonList.query';
-import { PokemonListCard } from '../../components/PokemonListCard';
-import { usePokemonCacheFilter } from '../../hooks/usePokemonCacheFilter';
+import { getPokemonQuery } from '../queries/getPokemon.query';
+import { getPokemon, getPokemonVariables } from '../queries/types/getPokemon';
+import { PokemonDetailCard } from '../components/PokemonDetailCard';
+import { PokemonFragment } from '../queries/types/PokemonFragment';
+import { getPokemonList, getPokemonListVariables } from '../queries/types/getPokemonList';
+import { getPokemonListQuery } from '../queries/getPokemonList.query';
+import { PokemonListCard } from '../components/PokemonListCard';
+import { usePokemonCacheFilter } from '../hooks/usePokemonCacheFilter';
 import Head from 'next/head';
 
 const PAGINATION_PAGE_SIZE = 12;
