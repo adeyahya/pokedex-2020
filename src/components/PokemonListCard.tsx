@@ -28,11 +28,13 @@ export const PokemonListCard: FunctionComponent<Props> = memo(
     }, [hasMore, onLoadMore]);
 
     return (
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 px-5 my-10">
-        {pokemons?.map((pokemon, idx) => (
-          <PokemonCard key={pokemon?.name || idx} pokemon={pokemon} />
-        ))}
-        <div ref={bottomMarkerNode} />
+      <div>
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 px-5 my-10">
+          {pokemons?.map((pokemon, idx) => (
+            <PokemonCard key={pokemon?.name || idx} pokemon={pokemon} />
+          ))}
+          <div ref={bottomMarkerNode} />
+        </div>
         {hasMore && loader}
       </div>
     );

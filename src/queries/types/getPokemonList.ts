@@ -155,6 +155,7 @@ export interface getPokemonList_pokemons {
   items: (getPokemonList_pokemons_items | null)[] | null;
   first: number;
   offset: number | null;
+  nextOffset: number | null;
 }
 
 export interface getPokemonList {

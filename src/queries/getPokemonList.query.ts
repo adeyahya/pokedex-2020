@@ -9,6 +9,7 @@ export const getPokemonListQuery = gql`
       }
       first
       offset
+      nextOffset
     }
   }
   ${pokemonFragment}
