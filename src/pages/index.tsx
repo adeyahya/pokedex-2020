@@ -46,7 +46,7 @@ const Index: FunctionComponent = () => {
   }, [data, fetchMore]);
 
   return (
-    <div className="max-w-screen-lg mx-auto">
+    <div className="max-w-screen-xl mx-auto">
       <Head>
         <title>Pokedex</title>
       </Head>
